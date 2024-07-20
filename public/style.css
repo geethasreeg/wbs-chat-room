@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+  font-family: 'Press Start 2P', cursive; /* Retro arcade style font for an anime vibe */
+  background: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#joinContainer, #chatContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #ff69b4; /* Vibrant pink border */
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff69b4; /* Vibrant pink */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff1493; /* Darker pink on hover */
+}
+
+#messages {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  border: 2px solid #ff69b4; /* Vibrant pink border */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  padding: 10px;
+  background: #f9f9f9;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+#userCount {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #ff69b4; /* Vibrant pink */
+}
+
+/* Anime-inspired gradient background */
+body {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
