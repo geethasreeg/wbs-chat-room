@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Group Chat App</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="joinContainer">
+    <input id="usernameInput" placeholder="Enter your username" />
+    <input id="codeInput" placeholder="Enter room code (or create a new room)" />
+    <button id="joinButton">Join Room</button>
+    <button id="createButton">Create Room</button>
+  </div>
+  <div id="chatContainer">
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
+    <p id="userCount"></p>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
